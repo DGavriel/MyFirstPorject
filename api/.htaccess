@@ -1,0 +1,4 @@
+# היומן לא נגיש מהדפדפן
+<FilesMatch "\.log$">
+  Require all denied
+</FilesMatch>
