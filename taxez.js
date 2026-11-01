@@ -6,7 +6,7 @@
 const FORM = {
   name: 'החזרי מס',
 
-  endpoint: 'https://script.google.com/macros/s/AKfycbz2Jtna5o5JmnUj0VQ5U5Fet5cwwI5K5ATKRJAtzLEplOoJ_rGasuEmAVq3MwPCLqoY/exec',
+  endpoint: '/api/send.php',
 
   storageKey: 'tax-lead',
   enterFrom: 'left',
