@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<title>החזרי מס – בדיקת זכאות</title>
+<meta name="description" content="בדיקת זכאות להחזרי מס עד 6 שנים אחורה. מדד התאמה מתעדכן בזמן אמת, ללא התחייבות.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<main class="wrap">
+  <div class="card">
+
+    <div class="meter" id="meter" style="display:none">
+      <div class="meter__top">
+        <span class="meter__label">מדד ההתאמה שלכם</span>
+        <span class="meter__value" id="meterVal">0%</span>
+      </div>
+      <div class="meter__track"><div class="meter__fill" id="meterFill"></div></div>
+      <span class="meter__note" id="meterNote"></span>
+      <span class="meter__legal">הערכה ראשונית בלבד, אינה התחייבות להחזר</span>
+    </div>
+
+    <div class="slides" id="slides" aria-live="polite"></div>
+
+  </div>
+
+  <p class="legal">
+    הבדיקה אינה מהווה ייעוץ מס ואינה מחייבת אתכם בדבר.
+    הדף מופעל על ידי כל שיווק. הפרטים נמסרים מרצונכם ומועברים לגורמים
+    המתמחים בבדיקת זכאות להחזרי מס, לצורך יצירת קשר איתכם.
+    <br>
+    <a href="privacy.html">מדיניות פרטיות</a>
+  </p>
+</main>
+
+<script src="taxref26.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
