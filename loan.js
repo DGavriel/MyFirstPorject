@@ -8,7 +8,7 @@ const FORM = {
   name: 'הלוואה',
 
   // כתובת ה-Web App של Google Apps Script
-  endpoint: 'https://script.google.com/macros/s/AKfycbxxY1ZSe-MlXtwQjBxVwGBDrp0KLHfF1sYRaQOtUUCt41lyjaXTii38Q-ALTko1XnV0/exec',
+  endpoint: '/api/send.php',
 
   // מפתח אחסון מקומי – חייב להיות שונה בין הדפים
   storageKey: 'loan-lead',

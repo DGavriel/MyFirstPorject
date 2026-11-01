@@ -8,7 +8,7 @@ const FORM = {
   name: 'כתבי שירות',
 
   // כתובת ה-Web App של Google Apps Script (מגיע בשלב הבא)
-  endpoint: 'https://script.google.com/macros/s/AKfycbxxY1ZSe-MlXtwQjBxVwGBDrp0KLHfF1sYRaQOtUUCt41lyjaXTii38Q-ALTko1XnV0/exec',
+  endpoint: '/api/send.php',
 
   storageKey: 'services-lead',
   enterFrom: 'left',
